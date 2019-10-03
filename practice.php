@@ -33,3 +33,25 @@ $calendar = [
 // 12月を表示する
 echo $calendar["December"];
 
+//if文課題
+$name="中川汰祐";
+if($name){
+    echo "私は".$name."です";
+    
+}else{
+    echo "あなたの名前ではありません";
+}
+$total=0;
+for($i=1; $i<1000; $i++){
+ $total += $i;
+}
+echo $total;
+$frutis=array("apple","banana","strawberry","peach","pear");
+foreach($frutis as $furut){
+    echo $furut;
+}
+$start = 1;
+$end = 100;
+for ($i = $start; $i <= $end; $i++) {
+if (($i % 5) == 0) { echo $i; }
+}
